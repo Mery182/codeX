@@ -1,0 +1,13 @@
+@import './base.css';
+
+[color-scheme='dark'] {
+  background-color: #1E1E1E;
+}
+
+[color-scheme='light'] {
+  background-color: rgb(241, 241, 241);
+  --color-text-contrast-high-soft: 00, 00, 00 !important;
+
+  /* --color-line: 00, 00, 00 !important;
+  --color-signal: 00, 00, 00 !important; */
+}
